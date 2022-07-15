@@ -15,7 +15,7 @@
       "web-vitals": "^2.1.4"
     },
     "scripts": {
-      "heroku-postbuild": "cd frondend && npm install && npm run build && cd ../.."
+      "heroku-postbuild": "cd frontend && npm install && npm run build && cd ../.."
     },
     "eslintConfig": {
       "extends": [
